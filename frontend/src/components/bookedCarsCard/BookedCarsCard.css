@@ -1,0 +1,42 @@
+.booked-cars-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 110px;
+  margin-bottom: 25px;
+}
+
+.admin-btn-grp {
+  display: flex;
+  gap: 10px;
+}
+
+.car-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pen-btn {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 7px 13px;
+  background-color: rgb(83, 80, 80);
+  border: none;
+  border-radius: 3px;
+}
+
+.red-btn {
+  background-color: rgb(244, 132, 132);
+}
+
+.green-btn {
+  background-color: rgb(65, 197, 65);
+}
+
+.font-bold {
+  font-weight: bold;
+}

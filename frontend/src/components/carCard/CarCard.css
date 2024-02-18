@@ -1,0 +1,58 @@
+.car-card {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.car-image {
+  width: 170px;
+}
+
+.car-info-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.car-info-cont .maker-info {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.car-info-cont .car-type-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 6px 0;
+}
+
+.car-info-cont .book-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-info {
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.price-info .day {
+  font-size: 0.9rem;
+}
+
+.book-car-btn {
+  padding: 6px 12px;
+  color: white;
+  background-color: rgb(124, 124, 243);
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 10px;
+}

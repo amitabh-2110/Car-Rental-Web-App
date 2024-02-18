@@ -1,0 +1,64 @@
+.car-page {
+  width: 100%;
+}
+
+.car-page .car-page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.car-photo {
+  width: 450px;
+}
+
+.photo-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-btn-container .book-btn {
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  background-color: rgb(236, 110, 110);
+  font-weight: 800;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.car-date-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search-btn {
+  padding: 5px 10px;
+  font-size: 1rem;
+  background-color: rgb(57, 55, 55);
+  font-weight: 800;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.booking-date-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mg-btm {
+  margin-bottom: 1.7rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
